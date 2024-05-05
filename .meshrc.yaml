@@ -1,8 +1,9 @@
 sources:
-  - name: petstore
+  - name: my-api
     handler:
       openapi:
-        source: https://petstore.swagger.io/v2/swagger.json
+        source: ./sources/api.json
+        endpoint: https://my-api.com/
         operationHeaders:
           Content-Type: application/json
           Accept: application/json

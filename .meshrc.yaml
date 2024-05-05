@@ -1,0 +1,8 @@
+sources:
+  - name: petstore
+    handler:
+      openapi:
+        source: https://petstore.swagger.io/v2/swagger.json
+        operationHeaders:
+          Content-Type: application/json
+          Accept: application/json

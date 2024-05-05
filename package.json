@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "@graphql-mesh/cli": "^0.90.3",
+    "@graphql-mesh/graphql": "^0.98.3",
+    "@graphql-mesh/openapi": "^0.100.5",
+    "@graphql-mesh/runtime": "^0.99.3",
+    "graphql": "^16.8.1"
+  },
+  "scripts": {
+    "start": "DEBUG=1 mesh dev"
+  },
+  "packageManager": "yarn@1.22.19+sha1.4ba7fc5c6e704fce2066ecbfb0b0d8976fe62447"
+}
